@@ -5,3 +5,21 @@
 https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=79
 
 이 곳을 참고하면 됩니다.
+
+backend/
+└── src/
+    └── ml/
+        └── data/
+            └── kfood/
+                ├── 국/
+                ├── 구이/
+                ├── 치킨/
+                ├── 피자/
+                ├── 나물/
+                ├── 김치/
+                ├── 면/
+                ├── 회/
+                ├── 튀김/
+                └── 찌개/
+
+이런식으로 저장 
