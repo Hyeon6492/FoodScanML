@@ -6,3 +6,21 @@ Windows의 경우 명령어
 
 필요한 패키지 설치 명령어
 pip install -r requirements.txt
+
+지금 이 프로젝트 머신러닝 활용 방법
+
+1. 우선 .ven 의존성 파일을 설치해야함
+가상환경 설치
+필요한 패키치 설치를 진행
+
+2. 관리자 권한으로 cmd 창을 연후
+
+cd D:\project\BiteScan\backend\src\ml
+# 머신러닝 폴더가 있는 곳으로 이동 상위 주소와 다를 수 있음
+
+python train.py --data_dir data/kfood --model_save_path models/saved_model_final.keras --epochs 10 --batch_size 32
+# train.py 에 데이터를 학습
+
+python predict_image.py test/
+# 학습이 완료 된다면 test 폴더에 test 할 자료를 시험할 수 있음
+
