@@ -1,0 +1,7 @@
+학습할 데이터 사진을 넣으면 됩니다.
+
+학습할 사진은
+
+https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=79
+
+이 곳을 참고하면 됩니다.
